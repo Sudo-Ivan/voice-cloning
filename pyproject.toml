@@ -1,0 +1,26 @@
+[project]
+name = "voice-cloning-001"
+version = "0.1.0"
+description = "Voice Cloning TTS"
+authors = [
+    {name = "Ivan"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+
+[project.scripts]
+voice-clone = "voice_cloning_001.main:demo.launch"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+chatterbox-tts = "^0.1.1"
+gradio = "^5.32.0"
+
+[tool.poetry]
+packages = [
+    { include = "voice_cloning_001" }
+]
