@@ -6,6 +6,8 @@
 
 ### Install and Run
 
+Python 3.12 is required.
+
 ```bash
 pip install git+https://github.com/Sudo-Ivan/voice-cloning
 ```
