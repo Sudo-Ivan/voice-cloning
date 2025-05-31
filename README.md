@@ -13,6 +13,8 @@ pip install git+https://github.com/Sudo-Ivan/voice-cloning
 or
 
 ```bash
+uv venv .venv --python 3.12.10
+source .venv/bin/activate
 uv pip install git+https://github.com/Sudo-Ivan/voice-cloning
 ```
 
